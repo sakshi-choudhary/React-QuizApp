@@ -8,13 +8,7 @@ body {
   font-size: 1.2rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #000000; /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(
-    to right,
-    #000000,
-    #bdc3c7
-  ); Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #2c3e50, #bdc3c7); */
+  background: #000000; 
 }
 
 .result {
@@ -31,7 +25,7 @@ body {
 }
 
 .selected {
-  background: linear-gradient(to right, #f36f22, #c25106) !important;
+  background: linear-gradient(to right, #30b9f0, #0777aa) !important;
 
 }
 
