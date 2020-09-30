@@ -75,10 +75,10 @@ class MainQuiz extends React.Component {
     if (isEnd) {
       return (
         <div className="result">
-          <h2>Game Over</h2>
-          <h2>Your Final score is <h1><strong> {this.state.score}</strong></h1> points </h2>
+          <h2 className="over">QUIZ Over</h2>
+          <h2>Your Final score is <h1 className="score"><strong> {this.state.score}</strong></h1> points </h2>
           <div>
-            The correct answer's for the questions was
+           <p className="answerintro"> The correct answer's for the questions was</p>
             <ul>
               {quizData.map((item, index) => (
                 <li className="ui floating message options" key={index}>
@@ -92,8 +92,8 @@ class MainQuiz extends React.Component {
     } else {
       return (
         <div className="App">
-          <h1>{this.state.questions} </h1>
-          <span>{`Questions ${currentQuestion}  out of ${quizData.length -
+          <h1 className="question">{this.state.questions} </h1>
+          <span className="remaining">{`Questions ${currentQuestion}  out of ${quizData.length -
             1} remaining `}</span>
           {options.map(option => (
             <p
