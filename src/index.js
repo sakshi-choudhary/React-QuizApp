@@ -3,10 +3,13 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 import MainQuiz from "./components/MainQuiz";
+import Header from "./components/header";
 
 function App() {
   return (
     <div className="App">
+     
+      <Header/>
       <MainQuiz />
     </div>
   );
