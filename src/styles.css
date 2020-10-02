@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 html {
@@ -16,18 +15,19 @@ body {
 /* app styling start */
 
 .App {
-  
   /* text-align: center; */
-  color: #fff
- 
+  color: #fff;
 }
 
- .App .question{
-  
+.App .question {
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
   padding-top: 50px;
 }
+.btn {
+  margin: 0 auto;
+}
+
 /* .App p{
   font-size: 1rem;
   font-weight: bold;
@@ -39,73 +39,68 @@ body {
 
 /* app styling end */
 
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
+.btn-container {
+  display: grid;
+  place-items: center;
+}
 
 /* after quiz style */
-.remaining{
+.remaining {
   position: absolute;
   right: 20px;
-  top:90px;
-  color:#ffc93c;
+  top: 90px;
+  color: #ffc93c;
   font-weight: bolder;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
-
 }
 .result {
   margin-top: 20px;
   text-align: center;
-
-  
 }
-.result .over{
+.result .over {
   font-size: 5rem;
   font-family: "Montserrat", sans-serif;
 }
-.result .score{
+.result .score {
   color: #ffc93c;
 }
 
-.result .answerintro{
+.result .answerintro {
   font-size: 1.2rem;
   color: #00bcd4;
 }
 
-
-
-
-
 /* next button style */
-.inverted{
+.inverted {
   margin-top: 30px !important;
   margin-left: 160px !important;
 }
 
-
 /* header part styling */
-#logo{
-  font-size:40px;
+#logo {
+  font-size: 40px;
 }
 header {
-  background-color:#343a40;
+  background-color: #343a40;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 orange;
-  margin-bottom: 50PX;
-  
-  
+  margin-bottom: 50px;
 }
-header h1{
+header h1 {
   color: #e1eaea;
 }
-header h1 .head{
+header h1 .head {
   color: orange;
 }
-
-
-
 
 /* options style */
 .options {
@@ -118,19 +113,13 @@ header h1 .head{
   border: 2px solid rgb(182, 178, 178);
   width: 200px;
   margin-left: 30px !important;
- 
+
   margin-top: 30px !important;
-  
 }
 
 .selected {
   background: linear-gradient(to right, #30b9f0, #0777aa) !important;
-
 }
-
-
-
-
 
 /* walkthrough styling */
 ul {
@@ -139,5 +128,3 @@ ul {
   text-transform: capitalize;
   font-weight: bolder;
 }
-
-
