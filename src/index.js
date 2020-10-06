@@ -1,16 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import Header from './header';
 
-import "./styles.css";
-import MainQuiz from "./components/MainQuiz";
-import Header from "./components/header";
 
-const App = () => (
-  <div className="App">
-    <Header />
-    <MainQuiz />
-  </div>
+ReactDOM.render(
+  <React.StrictMode>
+    <Header/>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+
