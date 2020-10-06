@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #111;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  
+}
+
+/* header part styling */
+#logo {
+  font-size: 40px;
+}
+header {
+  background-color: #343a40;
+  
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 orange;
+  margin-bottom: 50px;
+}
+header h1 {
+  color: #e1eaea;
+}
+header h1 .head {
+  color: orange;
+}

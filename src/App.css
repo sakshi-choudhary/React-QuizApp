@@ -1,0 +1,16 @@
+.App {
+  width: 100%;
+ padding: 50px 10px;
+
+
+ 
+}
+.Content {
+  display: table;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #111;
+  padding: 30px;
+}
+
