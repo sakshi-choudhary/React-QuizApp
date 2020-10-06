@@ -43,3 +43,13 @@
     /* font-weight: bold; */
     text-transform: capitalize;
 }
+
+.tryagainbtn{
+    margin-top: 40px;
+    padding:10px;
+    
+   }
+
+.tryagainbtn:hover{
+    background-color:lightgreen;
+}

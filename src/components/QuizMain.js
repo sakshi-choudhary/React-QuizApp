@@ -71,6 +71,11 @@ export default class Quiz extends Component {
 
     render(){
         let { quiestions, answers, correctAnswer, clickedAnswer, step, score } = this.state;
+        
+        function refreshPage() {
+            window.location.reload(false);
+          }
+
         return(
             <div className="Content">
                 {step <= Object.keys(quiestions).length ? 
@@ -97,6 +102,8 @@ export default class Quiz extends Component {
                             <h1>You have completed the quiz!</h1>
                             <h4>Your score is: {score} of {Object.keys(quiestions).length}</h4>
                             <p>Thank you!</p>
+
+                            <button className="tryagainbtn"  onClick={refreshPage}>TRY AGAIN </button>
                         </div>
                     )
                 }
