@@ -1,3 +1,3 @@
 # React-QuizApp 
 
-![](preview.png)
+
