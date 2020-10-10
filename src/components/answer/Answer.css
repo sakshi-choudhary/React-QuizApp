@@ -1,3 +1,19 @@
+.container { 
+    height: 200px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
 
 
 
@@ -5,21 +21,25 @@
     list-style: none;
     margin:0;
     padding: 0;
-    
+   width: 100%;
+  place-items: center;
+
 }
 
 
 
 .Answers li{
-   
+    width: 100%;
     padding: 10px;
-    border-left: 4px solid orange;
-    background-color: #fff;
-    margin: 0 0 10px;
+    background-color: #4a47a3;
+    color: #fff;
+    margin: 0 0px 10px;
     width:200px;
-    left:550px;
     text-align: center;
+    border-radius: 30px;
     justify-content: center;
+    align-items: center;
+   
     
 }
 .Answers li:hover{
@@ -28,15 +48,15 @@
 }
 .Answers .correct,
 .Answers .correct:hover {
-    background-color: #a8ff3e;
-    border-left: 4px solid lightgreen;
+    background-color: #c4fb6d;
+     font-weight: bolder;
     color: #111;
 }
 .Answers .incorrect,
 .Answers .incorrect:hover {
-    background-color: #f56a79;
-    border-left: 4px solid #ec0101;
-    color: #111;
+    background-color: #ec0101;
+    font-weight: bolder;
+    color: #fff;
 }
 .Answers[disabled] {
     pointer-events: none;
@@ -48,3 +68,5 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+

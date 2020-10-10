@@ -1,5 +1,24 @@
+.container { 
+    /* height: 200px; */
+    position: relative;
+  }
+  
+  
+
+
+
+  .nextbtn {
+    margin: 0;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 .NextStep{
     background-color: #e7dec8;
+    font-size: 1.3rem;
     color:#111;
     padding: 10px 30px;
     border: 0;
@@ -10,11 +29,58 @@
     margin-top: 20px;
 }
 .NextStep:hover{
-    background-color: rgb(0, 128, 128);
+    background-color: rgb(141, 233, 233);
 }
 .NextStep[disabled]{
     display: none;
 }
+
+
+
+.skipbtn {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.skipQuestion{
+    background-color: #e7c8cd;
+    color:#111;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 20px;
+    align-items: center;
+   
+    
+}
+.skipQuestion:hover{
+    background-color:orange;
+}
+
+.QuestionNum{
+    border-radius: 12px;
+    background-color:#ff414d;
+    border: none;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+
+
 
 .finalPage{
     text-align: center;
@@ -53,3 +119,7 @@
 .tryagainbtn:hover{
     background-color:lightgreen;
 }
+
+
+
+/* Responsive */
